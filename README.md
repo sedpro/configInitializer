@@ -22,6 +22,7 @@ Any class in namespace `Application\Service` can now implement `\Application\Con
   class SimpleService implements \Application\Config\ConfigAwareInterface
   {
     use \Application\Config\ConfigAware;
+    ...
 ```
 
 You can now get your application config from this class:
